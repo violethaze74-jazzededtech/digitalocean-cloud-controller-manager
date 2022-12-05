@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install go
-        uses: actions/setup-go@0caeaed6fd66a828038c2da3c0f662a42862658f
+        uses: actions/setup-go@d0a58c1c4d2b25278816e339b944508c875f3613
         with:
           go-version: ^1.17
       - name: Check out code into the Go module directory
